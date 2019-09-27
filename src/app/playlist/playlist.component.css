@@ -1,0 +1,43 @@
+section
+{
+    padding-top: 150px;
+}
+
+.primary-color
+{
+    color: #ff0068 !important;
+}
+.section-title h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.section-title p {
+    margin-bottom: 0;
+}
+.js-single-singer {
+    margin-bottom: 50px;
+}
+.js-singer-thumbnail {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.js-singer-content {
+    margin-left: 65px;
+    position: relative;
+    text-align: left;
+}
+
+.js-singer-content p {
+    margin-bottom: 0;
+}
+
+.js-singer-content::after {
+    background-color: #ffffff;
+    content: "";
+    height: 2px;
+    left: -65px;
+    position: absolute;
+    top: 15px;
+    width: 50px;
+}

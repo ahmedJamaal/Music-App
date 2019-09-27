@@ -1,0 +1,64 @@
+
+   .player {
+    z-index: 10;
+    background: #F1F3F4;
+    color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    border:  2px solid #F9F9F9;
+  }
+   .player .left img{
+    width: 80px;
+    background-size: cover;
+  }
+   .player .right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+   .player .right .top {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+  }
+   .player .right .top .song {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  body .player .right .bottom {
+    display: flex;
+  }
+   .player .right .bottom audio {
+    flex-grow: 1;
+    height: 32px;
+    width: 100%;
+  
+  }
+
+  @-webkit-keyframes pop-in {
+    0%, 95% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(0%);
+              transform: translateY(0%);
+    }
+  }
+  
+  @keyframes pop-in {
+    0%, 95% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(0%);
+              transform: translateY(0%);
+    }
+  }
+  

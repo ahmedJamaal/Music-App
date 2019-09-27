@@ -1,0 +1,45 @@
+.navbar
+{
+    background: #000;
+    border: 0px;
+    color: #fff !important;
+    position: fixed;
+    z-index: 11111;
+    width: 100%; 
+}
+.navbar-header
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navbar-header i
+{
+    color: #DB2A79;
+    padding-right: 10px;
+}
+.navbar ul li a
+{
+    color: #fff !important;
+}
+.dropdown
+{
+    color: #000 !important;
+}
+.navbar-brand
+{
+    font-size: 1.6em;
+    color: #fff;
+}
+.nav{
+    font-size: 1.2em;
+}
+img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.collapse .nav{
+padding-left: 15px;
+
+}

@@ -1,0 +1,26 @@
+.tittle-header h5
+{
+    padding-bottom: 10px;
+    font-size: 22px;
+
+}
+.artist-item
+{
+    width: 180px;
+}
+.artist-item img
+{
+    width:100%;
+}
+.artists-list{
+    display: flex;
+    justify-content: space-between;
+}
+.song-details h6
+{
+    font-size: 16px;
+}
+.song-details p
+{
+    font-size: 12px;
+}

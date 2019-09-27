@@ -1,0 +1,11 @@
+body {
+    color:#fff;
+	background: #78284a; /* Old browsers */
+	background: -moz-linear-gradient(left, #78284a 0%, #6d8a9f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#78284a), color-stop(100%,#6d8a9f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #78284a 0%,#6d8a9f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #78284a 0%,#6d8a9f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #78284a 0%,#6d8a9f 100%); /* IE10+ */
+	background: linear-gradient(to right, #78284a 0%,#6d8a9f 100%); /* W3C */
+
+}

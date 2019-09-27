@@ -1,0 +1,121 @@
+.miscellaneous-area
+{
+    padding-top: 100px;
+}
+.weeks-top-area {
+    position: relative;
+    z-index: 1;
+    padding: 45px 30px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border: 1px solid transparent;
+}
+
+element.style {
+    visibility: visible;
+    animation-delay: 50ms;
+    animation-name: fadeInUp;
+}
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.weeks-top-area .single-top-item {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 21px;
+    display: flex;
+}
+.weeks-top-area .single-top-item .thumbnail {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 73px;
+    flex: 0 0 73px;
+    max-width: 73px;
+    width: 73px;
+    margin-right: 20px;
+}
+
+.weeks-top-area .single-top-item .thumbnail  img {
+    height: auto;
+    max-width: 100%;
+}
+
+.weeks-top-area .single-top-item .content- h6 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.weeks-top-area .single-top-item .content- p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.new-hits-area {
+    position: relative;
+    z-index: 1;
+    padding: 45px 30px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border: 1px solid #d8d8d8;
+    background-color: #f5f9fa;
+}
+.new-hits-area .single-new-item {
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.new-hits-area .single-new-item .thumbnail {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 73px;
+    flex: 0 0 73px;
+    max-width: 73px;
+    width: 73px;
+    margin-right: 20px;
+}
+.new-hits-area .single-new-item .audioplayer {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+.popular-artists-area {
+    position: relative;
+    z-index: 1;
+    padding: 45px 30px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border: 1px solid #d8d8d8;
+    background-color: #f5f9fa;
+}
+.popular-artists-area .single-artists {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 17px;
+    display: flex;
+}
+
+.popular-artists-area .single-artists .thumbnail {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 63px;
+    flex: 0 0 63px;
+    max-width: 63px;
+    width: 63px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.popular-artists-area .single-artists .thumbnail img {
+    border-radius: 50%;
+}
+.popular-artists-area .single-artists .content- p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 65px;
+}
